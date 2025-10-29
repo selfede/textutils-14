@@ -4,21 +4,26 @@ This is a Text Utilities group assignemnt for the Python for Data Science Class.
 ## Environmenet Recreation 
 ### 1. Clone the repository 
 `git clone https://github.com/selfede/textutils-14`
+
 `cd textutils-14`
 
 ### 2. Recreate the environment using Micromamba 
 `micromamba create -f environment.yml -y`
+
 `micromamba activate textutils`
 
 ## How to install the package (pip install -e .)
 `pip install -e .`
+
 Ensure that the package is installed in editable mode
 ### Running the Tests 
 `pytest -v`
+
 Ensure that 100% of the test have been completed, some utils will have more tests than others.
 
 ### Viewing Test Coverage Details 
 `pytest --cov`
+
 The coverage for all of the tests should be >=90%
 
 ## Implemented Features:
