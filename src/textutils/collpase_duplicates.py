@@ -4,7 +4,7 @@ def collapse_duplicates(text, char):
     
     for c in text:
         if c == char and prev == char:
-            continue  # skip repeated same char
+            continue
         result.append(c)
         prev = c
     
