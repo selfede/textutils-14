@@ -1,5 +1,6 @@
 import textutils.core as c
 
+<<<<<<< HEAD
 def test_unique_words_basic():
     # Distinct, case-insensitive words sorted alphabetically
     text = "Red blue RED green"
@@ -32,3 +33,14 @@ def test_mixed_case():
 
 def test_punctuation_and_numbers_are_ignored():
     assert c.count_vowels("P3, brrr!") == 0
+=======
+def test_slugify_basic():
+    
+    text = "Hello World"
+    assert c.slugify(text) == "hello-world"
+
+def test_slugify_removes_special_characters():
+    
+    text = "Fast & Furious: Tokyo Drift!"
+    assert c.slugify(text) == "fast-furious-tokyo-drift"
+>>>>>>> florian-collaborative-branch

@@ -1,4 +1,5 @@
 import re
+<<<<<<< HEAD
 def unique_words(text: str):
     text = text.lower()
     words = re.findall(r'\b[a-z0-9]+\b', text)
@@ -25,3 +26,19 @@ def count_vowels(text):
         if char.lower() in vowels:
             count += 1
     return count
+=======
+
+def slugify(text):
+    text = text.lower()
+    text = text.replace(' ', '-')
+
+    result = ''
+    for char in text:
+        if char.isalnum() or char == '-':
+            result += char
+
+    result = re.sub(r'-+', '-', result)
+    result = result.strip('-')
+
+    return result
+>>>>>>> florian-collaborative-branch
