@@ -8,3 +8,8 @@ def test_basic_removal():
 def test_no_punctuation():
     #Test case with a normal string
     assert rp.remove_punctuation("Hello world") == "Hello world"
+
+def test_remove_punctuation_only_punctuation():
+    text = "!!!???..."
+    result = remove_punctuation(text)
+    assert result == ""
