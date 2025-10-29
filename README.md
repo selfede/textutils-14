@@ -35,20 +35,6 @@ unique_words(text) — return a sorted list of distinct words (case-insensitive)
 collapse_duplicates(text, char) — replace runs of the same char with one.  
 word_lengths(text) — return a dict mapping words to their lengths.  
 
-
-## Coverage Report:
-
-Name                                   Stmts   Miss  Cover
-----------------------------------------------------------
-src/textutils/__init__.py                  0      0   100%
-src/textutils/core.py                     55      1    98%
-tests/integration/test_end_to_end.py      17      0   100%
-tests/unit/test_core.py                   51      0   100%
-----------------------------------------------------------
-TOTAL                                    123      1    99%
-========================================================= 20 passed in 0.04s 
-
-
 ## Team Members
 Federica Selvini as selfede
 
