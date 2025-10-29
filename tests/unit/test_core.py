@@ -59,17 +59,17 @@ def test_with_punctuation():
     result = c.word_lengths("great work!")
     assert result == {"great": 5, "work!": 5}
 
-def average_test_simple_words():
+def test_simple_words_awl():
     # this fucntion tests with simple words
     result = c.average_word_length("python git")
     assert result == 4.5
 
-def average_test_different_lengths():
+def test_different_lengths_awl():
     # Test with different word lengths: "I" (1) + "love" (4) + "Python" (6) = 11 / 3 = 3.67
     result = c.average_word_length("good job team")
     assert result == 3.67
 
-def average_test_only_punctuation():
+def test_only_punctuation_awl():
     # Test with only punctuation: should return 0.0
     result = c.average_word_length("!@#$%^&*()")
     assert result == 0.0
