@@ -1,5 +1,5 @@
 # Textutils Team 14
-This is a Text Utilities group assignemnt for the Python for Data Science Class.
+This is a Text Utilities group assignment for the Python for Data Science Class.
 
 ## Environmenet Recreation 
 ### 1. Clone the repository 
