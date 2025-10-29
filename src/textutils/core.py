@@ -1,4 +1,5 @@
 import re
+import string
 
 def unique_words(text: str):
     text = text.lower()
@@ -66,3 +67,10 @@ def average_word_length(text: str) -> float:
     avg_length = total_length / len(words)
     return round(avg_length, 2)
 
+def remove_punctuation(text):
+    cleaned_text = ""
+    for ch in text:
+        if ch not in string.punctuation:
+            cleaned_text += ch
+
+    return cleaned_text
