@@ -32,8 +32,11 @@ word_lengths(text) — return a dict mapping words to their lengths.
 
 ## Team Members
 Federica Selvini as selfede
+
 Ivan Salticov as vein134
+
 Florian Nix as floriannix4-stack
+
 Sharath Raveendran as sharathandres51-eng
 
 
