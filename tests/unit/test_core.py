@@ -5,5 +5,5 @@ def test_basic_lowercase():
 def test_mixed_case():
     assert count_vowels("AEiou") == 5
 
-def test_no_vowels():
-    assert count_vowels("python") == 2 
+def test_punctuation_and_numbers_are_ignored():
+    assert count_vowels("P3, brrr!") == 0
