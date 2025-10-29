@@ -1,4 +1,4 @@
-import textutils.unique_words as c
+import textutils.core as c
 
 def test_unique_words_basic():
     # Distinct, case-insensitive words sorted alphabetically
