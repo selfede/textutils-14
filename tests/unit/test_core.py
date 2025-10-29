@@ -1,4 +1,4 @@
-import textutils.collpase_duplicates as collpase
+import textutils.core as collpase
 
 def test_basic_collapse():
     # covers duplicate skipping (True branch)
