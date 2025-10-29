@@ -1,5 +1,4 @@
 import re
-<<<<<<< HEAD
 def unique_words(text: str):
     text = text.lower()
     words = re.findall(r'\b[a-z0-9]+\b', text)
@@ -18,7 +17,6 @@ def collapse_duplicates(text, char):
     
     return ''.join(result)
 
-
 def count_vowels(text):
     vowels = ['a', 'e', 'i', 'o', 'u']
     count = 0
@@ -26,7 +24,6 @@ def count_vowels(text):
         if char.lower() in vowels:
             count += 1
     return count
-=======
 
 def slugify(text):
     text = text.lower()
@@ -41,4 +38,4 @@ def slugify(text):
     result = result.strip('-')
 
     return result
->>>>>>> florian-collaborative-branch
+
