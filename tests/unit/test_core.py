@@ -10,6 +10,7 @@ def test_no_punctuation():
     assert rp.remove_punctuation("Hello world") == "Hello world"
 
 def test_remove_punctuation_only_punctuation():
+    #Tests when their is only punctuation in the string
     text = "!!!???..."
-    result = remove_punctuation(text)
+    result = rp.remove_punctuation(text)
     assert result == ""
